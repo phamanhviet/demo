@@ -1,14 +1,150 @@
+
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+
+  "result":[
+
+     {
+
+        "scores":[
+
+           {
+
+              "mcc":262,
+
+              "mnc":1,
+
+              "score":0.6438746438746439,
+
+              "roamingPartner":{
+
+                 "mccMnc":"26201",
+
+                 "plmnid":"FAKEDT",
+
+                 "country":"Germany",
+
+                 "operator":"FAKE Deutsche Telekom",
+
+                 "networkTypes":[
+
+                    "NET_3G",
+
+                    "NET_GPRS",
+
+                    "NET_2G",
+
+                    "NET_LTE"
+
+                 ]
+
+              }
+
+           },
+
+           {
+
+              "mcc":262,
+
+              "mnc":7,
+
+              "score":0.25925925925925924,
+
+              "roamingPartner":{
+
+                 "mccMnc":"26207",
+
+                 "plmnid":"FAKETF",
+
+                 "country":"Germany",
+
+                 "operator":"FAKE O2",
+
+                 "networkTypes":[
+
+                    "NET_3G",
+
+                    "NET_GPRS",
+
+                    "NET_2G",
+
+                    "NET_LTE"
+
+                 ]
+
+              }
+
+           },
+
+           {
+
+              "mcc":262,
+
+              "mnc":2,
+
+              "score":0.09686609686609686,
+
+              "roamingPartner":{
+
+                 "mccMnc":"26202",
+
+                 "plmnid":"FAKEVF",
+
+                 "country":"Germany",
+
+                 "operator":"FAKE Vodafone",
+
+                 "networkTypes":[
+
+                    "NET_3G",
+
+                    "NET_GPRS",
+
+                    "NET_2G"
+
+                 ]
+
+              }
+
+           }
+
+        ],
+
+        "bestNetwork":{
+
+           "mcc":262,
+
+           "mnc":1,
+
+           "score":0.6438746438746439,
+
+           "roamingPartner":{
+
+              "mccMnc":"26201",
+
+              "plmnid":"FAKEDT",
+
+              "country":"Germany",
+
+              "operator":"FAKE Deutsche Telekom",
+
+              "networkTypes":[
+
+                 "NET_3G",
+
+                 "NET_GPRS",
+
+                 "NET_2G",
+
+                 "NET_LTE"
+
+              ]
+
+           }
+
+        }
+
+     }
+
+  ]
+
 }
